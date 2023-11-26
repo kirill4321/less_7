@@ -1,0 +1,108 @@
+*{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Playfair Display', serif;
+}
+.mama{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid black;
+    background: url(./img/space.jpg);
+    background-size: cover;
+}
+.k1{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+.k2{
+    height: 400px;
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mama1{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.t2{
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+}
+.profil{
+    text-decoration: none;
+    padding: 10px 35px;
+    background-color: rgb(137, 43, 226);
+}
+.profil:hover{
+    background-color: violet;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.k11{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+.mama2{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: red; 
+}
+.wraper{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.t7{
+    color: white;
+}
+.fotos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.foto{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.foto img{
+    border-radius: 100%;
+    border: 2px solid black;
+    
+}
+.fotos2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.wraper{
+    width: 100%;
+    height: 1100px;
+}
